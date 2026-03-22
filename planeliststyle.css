@@ -46,52 +46,53 @@ h1 {
     font-size: 32px;
 }
 
-.catalog {
+.liste {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
 
-.card {
-    background-color: white;
+.fiche {
+    background-color: rgb(0, 0, 0);
     border-radius: 8px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
 
-.card img {
+.fiche img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     display: block;
 }
 
-.card h2 {
+.fiche h2 {
     padding: 15px 15px 10px 15px;
     font-size: 18px;
-    color: #333;
+    color: #ffffff;
     text-align: center;
 }
 
-.card p {
+.fiche p {
     padding: 0 15px;
     font-size: 13px;
-    color: #666;
+    color: #ffffff;
     line-height: 1.5;
     text-align: center;
+    font-family: "Audiowide", sans-serif;
 }
 
-.card p:first-of-type {
+.fiche p:first-of-type {
     padding-top: 10px;
 }
 
-.card button {
+.fiche button {
     margin: 15px 15px 15px 15px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ffd000;
     color: white;
+    font-family: "Audiowide", sans-serif;
     border: none;
     border-radius: 5px;
     font-size: 14px;
@@ -99,7 +100,7 @@ h1 {
     transition: background-color 0.2s;
 }
 
-.card button:hover {
-    background-color: #0056b3;
+.fiche button:hover {
+    background-color: #ff9900;
 }
 
