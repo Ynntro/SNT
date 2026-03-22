@@ -39,23 +39,24 @@ main {
     font-family: "Bitcount Prop Double", sans-serif;
     color : white;
     text-shadow: rgba(255,255,255,0.9) 0px 0px 39px;
+    font-size: 40px;
 }
 
 section {
     color : white
 }
 
-.texte2 h2 {
-    font-family: "Bitcount Prop Double", sans-serif;
-}
-.texte2 p {
-    font-family: "Roboto Mono", monospace;
-}
-
 .texte3 h2 {
     font-family: "Bitcount Prop Double", sans-serif;
 }
 .texte3 p {
+    font-family: "Roboto Mono", monospace;
+}
+
+.texte4 h2 {
+    font-family: "Bitcount Prop Double", sans-serif;
+}
+.texte4 p {
     font-family: "Roboto Mono", monospace;
 }
 
